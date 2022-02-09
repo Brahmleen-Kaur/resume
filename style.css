@@ -1,0 +1,205 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+h1{
+    margin:0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    color: #007944;
+    padding-top: 20px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.7rem;
+    color: #228B22;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+hr{
+    border-style: dotted none none;
+    border-width: 6px;
+    border-color: lightgrey;
+    height: 0;
+    width: 50px;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 700; */
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 125px 5px 150px;
+    align-items: center;
+    background-color: #CDF3A2;
+}
+
+
+.nav{
+    background-color: #CDF3A2;
+    padding:10px;
+}
+
+.nav ul{
+    
+    list-style: none;
+    overflow: auto;
+    margin:0;
+}
+
+.nav li{
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #007944;
+}
+
+#programmer{
+    margin-top: 0px;
+    font-size: 20px;
+    color: #007944;
+}
+
+.girl{
+    border-radius: 100%;
+    border: solid beige 10px;
+    background-color: beige;
+}
+
+#top-girl{
+    width:45px;
+}
+
+#middle-girl{
+    width: 130px;
+}
+
+.top_cloud{
+    opacity: 0.95;
+    position: relative;
+    left: 365px;
+    width: 150px;
+}
+
+.bottom_cloud{
+    opacity: 0.95;
+    position: relative;
+    right: 350px;
+    bottom: 30px;
+    width: 150px;
+}
+
+.mountain{
+    width: 700px;
+}
+
+#mountain{
+    padding: 20px;
+    /* width: 700px; */
+}
+
+#top{
+    background-color: #CDF3A2;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+} 
+
+#middle{
+    text-align: center;
+}
+
+.profile{
+    padding : 90px 0 70px;
+    width: 30%;
+    margin: auto;
+}
+
+.skills{
+    padding: 40px 0px 30px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 60px auto 70px;
+    text-align: left;
+    line-height: 2;
+    /* text-align: justify;  */
+}
+
+.html{
+    float: left;
+    width:130px;
+    padding-bottom: 5px;
+    transition: 0.3s;
+    padding-right: 30px;
+}
+
+.html:hover{
+    transform: scale(1.1,1.1);
+}
+
+.css{
+    float: right;
+    width: 135px;
+    left: 5px;
+    transition: 0.3s;
+    padding-left: 30px;
+}
+
+.css:hover{
+    transform: scale(1.1,1.1);
+}
+
+.my-skills{
+    font-size: 40px;
+}
+
+#bottom{
+    text-align: center;
+    padding: 30px;
+    background-color: #CDF3A2;
+}
+
+#get-in-touch{
+    color: #007944;
+    margin-top: 0px;
+}
+
+.footer-link{
+    margin: 20px;
+}
+
+.bottom-links{
+    width: 35px;
+    background-color: white;
+    border-radius: 23%;
+    transition: 0.3s;
+}
+
+.bottom-links:hover{
+    transform: scale(1.2,1.2);
+}
+
+#gmail{
+    width: 29px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 23%;
+    transition: 0.3s;
+}
+
+#gmail:hover{
+    transform: scale(1.2,1.2);
+}
+
