@@ -41,14 +41,12 @@ header{
     background-color: #CDF3A2;
 }
 
-
 .nav{
     background-color: #CDF3A2;
     padding:10px;
 }
 
 .nav ul{
-    
     list-style: none;
     overflow: auto;
     margin:0;
@@ -74,6 +72,11 @@ header{
     border-radius: 100%;
     border: solid beige 10px;
     background-color: beige;
+}
+
+#green-container{
+    background-color: #CDF3A2;
+    min-height: 100vh;
 }
 
 #top-girl{
@@ -202,4 +205,3 @@ header{
 #gmail:hover{
     transform: scale(1.2,1.2);
 }
-
